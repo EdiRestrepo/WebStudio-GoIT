@@ -18,6 +18,7 @@
         font-weight: 700;
         line-height: 1.19;
         letter-spacing: 0.03em;
+        font-family: 'Raleway';
       }
       
       &__link{
@@ -58,7 +59,7 @@
   
   .navbar__webstudio:hover::after {
     @include navbarBefore();
-    left: 250px;
+    left: 215px;
   }
   
   .navbar__link:hover::after{
