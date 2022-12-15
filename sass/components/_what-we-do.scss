@@ -1,0 +1,37 @@
+@import '../utils/variables';
+
+
+/* A que nos dedicamos*/
+.what-we-do-list{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 94px;
+    padding: 55px 215px 0px 255px;
+    position: relative;
+
+      /*A que nos dedicamos*/
+  &_text{
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 373px;
+    color: $primary-white-color;
+    padding: 28px 0px;
+    position: absolute;
+    top: 307px;
+  }
+}
+  
+  /* A que nos dedicamos titulo*/
+  .what-we-do__title {
+    @include subtitle();
+  }
+  
+
+  
+  
+  

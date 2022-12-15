@@ -1,0 +1,65 @@
+$main-color: #2196f3;
+$third-color: #757575;
+$second-color: #212121;
+
+$accent-color-hover: #188ce8;
+$accent-color: #2196f3;
+
+$background-black-2: #2f303a;
+$background-black-1: #21303a;
+$background-black-240Perc: hsla(235, 10%, 21%, 0.4);
+$background-cover-page: rgba(47, 48, 58, 0.4);
+
+$primary-black-color: #212121;
+$primary-text-color: #757575;
+$primary-white-color: #ffffff;
+$primary-white-60Perc: hsla(0, 0%, 100%, 0.6);
+$primary-white-10Perc: hsla(0, 0%, 100%, 0.1);
+
+
+$gray-1: #f5f4fa;
+$gray-2: #afb1b8;
+$black-1: #000000;
+
+$border-form: rgba(33, 33, 33, 0.2);
+
+
+@mixin navbarBefore() {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 48px;
+    border-radius: 2px;
+    background-color: $main-color;
+    position: absolute;
+    top: 75px;
+  }
+
+  @mixin display(){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  @mixin display2(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @mixin subtitle(){
+    color: $second-color;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+  }
+
+  @mixin textFooter(){
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }

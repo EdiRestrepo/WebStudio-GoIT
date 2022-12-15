@@ -1,0 +1,90 @@
+@import '../utils/variables';
+
+
+/*Footer*/
+.footer {
+    background: $background-black-2;
+    width: 100%;
+    padding: 60px 215px;
+    line-height: 1.71;
+     
+    /*Footer webstudio*/
+  &__webstudio {
+    font-family: 'Raleway';
+    color: $main-color;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+ }
+}
+  
+  .footer-address {
+    width: 230px;
+    padding-top: 9px;
+
+    &__item{
+        @include textFooter();
+        color: $primary-white-color;
+      }
+      
+      &__item2{
+        @include textFooter();
+      color: rgba(255, 255, 255, 0.6);
+      }
+      
+      &__item:hover,
+      &__item:focus,
+      &__item2:hover,
+      &__item2:focus{
+        color: $accent-color;
+      }
+  }
+  
+
+  /*Footer webstudio*/
+  .footer__address {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+  }
+  
+  /*Footer webstudio*/
+  .footer-social-media {
+    color: $primary-white-color;
+    font-family: "Roboto";
+    font-style: normal;
+    margin-top: -25px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+
+      /*Footer webstudio*/
+  &__list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /*Footer social media*/
+  &__item{
+    @include display2();
+    margin-top: 16px;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  /*Footer social media*/
+  &__item svg,
+  &__item svg path{
+    fill: $primary-white-color;
+  }
+  
+  /*Footer social media*/
+  &__item:hover {
+    background-color: $main-color;
+    cursor: pointer;
+  }
+  
+}
+  

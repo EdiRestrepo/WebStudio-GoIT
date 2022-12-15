@@ -1,0 +1,35 @@
+@import '../utils/variables';
+
+
+/*Seccion Ventajas*/
+.advantages-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 94px 215px 0px 215px;
+    margin-bottom: 65px;
+
+/*Seccion Ventajas imagenes*/
+  &__img {
+    padding-bottom: 30px;
+  }
+}
+  
+  /*Seccion Ventajas titulo*/
+  .advantanges__title {
+    color: $second-color;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+  }
+  
+  /*Seccion Ventajas descripcion*/
+  .advantanges__description {
+    color: $third-color;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  
+  

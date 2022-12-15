@@ -1,0 +1,77 @@
+@import '../utils/variables';
+
+
+/*Encabezado barra de navegación superior */
+.navbar {
+    height: 80px;
+    line-height: 1.14;
+    border-bottom: solid 1px #f5f4fa;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    &__webstudio{
+        color: $main-color;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+      }
+      
+      &__link{
+        margin-left: 50px;
+        color: $second-color;
+        font-weight: 500;
+        line-height: 1.14;
+      }
+  }
+  
+  .navbar-menu,
+  .navbar-section {
+    @include display();
+  }
+  
+  .navbar-section__item {
+    margin-left: 50px;
+    color: $third-color;
+    line-height: 1.14;
+    font-weight: 500;
+    @extend .navbar-menu;
+  }
+  
+  .navbar-section__icon {
+    fill: $third-color;
+    margin-right: 7px;
+  }
+  
+  .navbar__link:hover,
+  .navbar__link:focus,
+  .navbar-section__item:hover,
+  .navbar-section__item:focus,
+  .navar-section__content:hover .navbar-section__icon,
+  .navbar-section__icon:focus{
+    color: $main-color;
+    fill: $main-color;
+  }
+  
+  .navbar__webstudio:hover::after {
+    @include navbarBefore();
+    left: 250px;
+  }
+  
+  .navbar__link:hover::after{
+    @include navbarBefore();
+    margin-left: 50px;
+  }
+
+  .navbar-section__item:hover::after{
+    @include navbarBefore();
+    margin-left: 20px;
+  }
+  
+
+  
+  
+  
