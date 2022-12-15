@@ -86,7 +86,7 @@ body {
   background-color: #2196f3;
   position: absolute;
   top: 75px;
-  left: 215px;
+  left: 175px;
 }
 
 .navbar__link:hover::after {
@@ -129,7 +129,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #ffffff;
-  margin: 200px 452px 0px 452px;
+  margin: 200px 452px 0px 200px;
 }
 .main-cover-page__button {
   font-weight: 700;
@@ -372,7 +372,7 @@ body {
   text-align: center;
   gap: 30px;
   margin-bottom: 94px;
-  padding: 55px 215px 0px 215px;
+  padding: 55px 215px 0px 115px;
   position: relative;
   /*A que nos dedicamos*/
 }
@@ -567,7 +567,7 @@ body {
 .footer__address {
   display: flex;
   flex-direction: row;
-  gap: 70px;
+  gap: 50px;
 }
 
 /*Footer webstudio*/
@@ -608,7 +608,7 @@ body {
 /* Formulario suscripcion pie de pagina */
 .footer-form {
   margin-top: -25px;
-  padding-left: 53px;
+  padding-left: 33px;
   /* Formulario suscripcion pie de pagina */
   /* Formulario suscripcion pie de pagina */
   /* Formulario suscripcion pie de pagina */
@@ -628,7 +628,7 @@ body {
 .footer-form__input {
   display: inline;
   margin-top: 23px;
-  width: 300px;
+  width: 290px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -695,7 +695,7 @@ body {
 
 /*Portafolio imagenes */
 .main-portafolio-images {
-  padding: 0px 215px 30px 215px;
+  padding: 0px 215px 30px 115px;
 }
 
 /*Portafolio imagenes */

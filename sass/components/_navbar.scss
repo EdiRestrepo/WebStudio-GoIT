@@ -59,7 +59,7 @@
   
   .navbar__webstudio:hover::after {
     @include navbarBefore();
-    left: 215px;
+    left: 175px;
   }
   
   .navbar__link:hover::after{
