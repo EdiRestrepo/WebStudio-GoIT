@@ -3,7 +3,7 @@
 
 /*Portafolio imagenes */
 .main-portafolio-images{
-    padding: 0px 215px 30px 100px;
+    padding: 0px 86px 30px 86px;
   }
   
   /*Portafolio imagenes */
@@ -16,6 +16,7 @@
     display: flex;
     gap: 30px;
     align-items: center;
+    justify-content: center;
 
       /*Imagenes portafolio li*/
   &__list {

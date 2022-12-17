@@ -16,6 +16,7 @@ body {
   background-color: #ffffff;
   color: #757575;
   font-family: "Roboto", sans-serif;
+  width: 100%;
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -86,7 +87,7 @@ body {
   background-color: #2196f3;
   position: absolute;
   top: 75px;
-  left: 15%;
+  left: 12%;
 }
 
 .navbar__link:hover::after {
@@ -129,7 +130,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #ffffff;
-  margin: 200px 310px 0px 310px;
+  padding: 200px 310px 0px 310px;
 }
 .main-cover-page__button {
   font-weight: 700;
@@ -340,10 +341,9 @@ body {
 .advantages-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: center;
   gap: 60px;
-  padding: 94px 215px 0px 215px;
+  padding: 94px 45px 0px 55px;
   margin-bottom: 65px;
   /*Seccion Ventajas imagenes*/
 }
@@ -366,13 +366,19 @@ body {
   line-height: 1.71;
 }
 
+.advantages__list {
+  width: 270px;
+  height: auto;
+}
+
 /* A que nos dedicamos*/
 .what-we-do-list {
   display: flex;
   text-align: center;
+  justify-content: center;
   gap: 30px;
   margin-bottom: 94px;
-  padding: 55px 215px 0px 100px;
+  padding: 55px 86px 0px 86px;
   position: relative;
   /*A que nos dedicamos*/
 }
@@ -695,7 +701,7 @@ body {
 
 /*Portafolio imagenes */
 .main-portafolio-images {
-  padding: 0px 215px 30px 100px;
+  padding: 0px 86px 30px 86px;
 }
 
 /*Portafolio imagenes */
@@ -708,6 +714,7 @@ body {
   display: flex;
   gap: 30px;
   align-items: center;
+  justify-content: center;
   /*Imagenes portafolio li*/
   /*Portafolio imagnes sombra*/
   /*Portafolio titilo del proyecto */

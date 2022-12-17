@@ -5,10 +5,9 @@
 .advantages-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
     gap: 60px;
-    padding: 94px 215px 0px 215px;
+    padding: 94px 45px 0px 55px;
     margin-bottom: 65px;
 
 /*Seccion Ventajas imagenes*/
@@ -30,6 +29,11 @@
     color: $third-color;
     font-size: 14px;
     line-height: 1.71;
+  }
+
+  .advantages__list{
+    width: 270px;
+    height: auto;
   }
   
   
