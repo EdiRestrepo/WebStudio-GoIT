@@ -32,5 +32,15 @@
   }
 }
   
+@media only screen and (min-width: 767.98px) and (max-width:1199.98px){
 
+  .filter-list{
+    gap: 8px;
+    padding: 60px 126px 0px 126px;
+  }
+
+  .filter-list__button{
+    margin-bottom: 30px;
+  }
+}
   

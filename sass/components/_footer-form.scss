@@ -3,8 +3,8 @@
 
 /* Formulario suscripcion pie de pagina */
 .footer-form {
-    margin-top: -25px;
-    padding-left: 33px;
+    margin-top: -55px;
+    padding-left: 23px;
 
       /* Formulario suscripcion pie de pagina */
   &__title {
@@ -63,6 +63,21 @@
     margin-left: 10px;
   }
   
+}
+
+@media only screen and (min-width: 767.98px) and (max-width:1199.98px){
+
+  .footer-form{
+    padding-top: 35px;
+  }
+  .footer-form__input{
+    width: 450px;
+  }
+
+  .footer-form__button{
+    width: 200px;
+    margin-top:  20px;
+  }
 }
   
 

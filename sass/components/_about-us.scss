@@ -85,5 +85,29 @@
     padding-left: 35px;
   }
   
- 
+  @media only screen and (min-width: 767.98px) and (max-width:1199.98px){
+
+    .about-us-list{
+      flex-wrap: wrap;
+      padding: 30px 15px 60px 15px;
+    }
+
+    .about-us__title{
+      padding-top: 60px;
+    }
+
+    .about-us-list__item{
+      width: 354px;
+    }
+
+    .about-us-list__item img{
+      width: 354px;
+    }
+
+    .about-us-list__svg{
+      gap: 10px;
+      padding-bottom: 30px;
+      padding-left: 74px;
+    }
+  }
   

@@ -9,7 +9,7 @@
     height: 600px;
     background: linear-gradient(310deg, #0000005d, #2f303a94),
     url("./images-css/imagenfondo.jpg");
-    background-size: cover;
+    background-size: 100% 600px;
 
     &__title{
         font-weight: 900;
@@ -42,6 +42,26 @@
       }
   }
   
- 
+  @media only screen and (min-width: 767.98px) and (max-width:1199.98px){
+
+    .main-cover-page{
+      height: 400px;
+      background-size: 100% 400px;
+    }
+
+    .main-cover-page__title{
+      font-size: 26px;
+      line-height: 1.61;
+      padding: 118px 204px 0px 204px;
+    }
+
+    .main-cover-page__button{
+      width: 220px;
+      height: 50px;
+      margin-top: 40px;
+    }
+
+  }
+
   
   

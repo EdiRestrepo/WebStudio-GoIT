@@ -114,6 +114,12 @@ body {
   margin-left: 20px;
 }
 
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+  .navbar-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 /*Seccion titulo principal, imagen de portada principal*/
 .main-cover-page {
   text-align: center;
@@ -121,7 +127,7 @@ body {
   width: 100%;
   height: 600px;
   background: linear-gradient(310deg, rgba(0, 0, 0, 0.3647058824), rgba(47, 48, 58, 0.5803921569)), url("./images-css/imagenfondo.jpg");
-  background-size: cover;
+  background-size: 100% 600px;
 }
 .main-cover-page__title {
   font-weight: 900;
@@ -151,6 +157,22 @@ body {
   background: #188ce8;
 }
 
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+  .main-cover-page {
+    height: 400px;
+    background-size: 100% 400px;
+  }
+  .main-cover-page__title {
+    font-size: 26px;
+    line-height: 1.61;
+    padding: 118px 204px 0px 204px;
+  }
+  .main-cover-page__button {
+    width: 220px;
+    height: 50px;
+    margin-top: 40px;
+  }
+}
 /*Ventana modal fijar*/
 .backdrop {
   position: fixed;
@@ -371,6 +393,23 @@ body {
   height: auto;
 }
 
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+  .advantages-list {
+    flex-wrap: wrap;
+    padding: 60px 10px 0px 10px;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  .advantages__list {
+    width: 354px;
+  }
+  .advantages-list__img {
+    width: 354px;
+  }
+  .advantanges__description {
+    padding-top: 10px;
+  }
+}
 /* A que nos dedicamos*/
 .what-we-do-list {
   display: flex;
@@ -405,6 +444,11 @@ body {
   text-align: center;
 }
 
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+  .what-we-do {
+    display: none;
+  }
+}
 /*Nuestro Equipo*/
 .about-us {
   background: #f5f4fa;
@@ -486,6 +530,26 @@ body {
   padding-left: 35px;
 }
 
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+  .about-us-list {
+    flex-wrap: wrap;
+    padding: 30px 15px 60px 15px;
+  }
+  .about-us__title {
+    padding-top: 60px;
+  }
+  .about-us-list__item {
+    width: 354px;
+  }
+  .about-us-list__item img {
+    width: 354px;
+  }
+  .about-us-list__svg {
+    gap: 10px;
+    padding-bottom: 30px;
+    padding-left: 74px;
+  }
+}
 /*Clientes Regulares*/
 .customers__title {
   color: #212121;
@@ -528,12 +592,32 @@ body {
   fill: #2196f3;
 }
 
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+  .customers__title {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .customers__list {
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+  }
+  .customers__item {
+    width: 226px;
+    height: 92px;
+  }
+}
 /*Footer*/
 .footer {
   background: #2f303a;
   width: 100%;
-  padding: 60px 115px;
+  padding: 60px 160px;
   line-height: 1.71;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 45px;
+  gap: 70px;
   /*Footer webstudio*/
 }
 .footer__webstudio {
@@ -546,8 +630,8 @@ body {
 }
 
 .footer-address {
-  width: 230px;
-  padding-top: 9px;
+  width: 241px;
+  padding-top: 18px;
 }
 .footer-address__item {
   font-family: "Roboto";
@@ -570,10 +654,8 @@ body {
 }
 
 /*Footer webstudio*/
-.footer__address {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
+.footer__address li {
+  padding-bottom: 8px;
 }
 
 /*Footer webstudio*/
@@ -581,9 +663,12 @@ body {
   color: #ffffff;
   font-family: "Roboto";
   font-style: normal;
-  margin-top: -25px;
   font-size: 14px;
   letter-spacing: 0.03em;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -65px;
   /*Footer webstudio*/
   /*Footer social media*/
   /*Footer social media*/
@@ -597,7 +682,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 16px;
   width: 45px;
   height: 45px;
   border-radius: 25px;
@@ -611,10 +695,16 @@ body {
   cursor: pointer;
 }
 
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+  .footer {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
 /* Formulario suscripcion pie de pagina */
 .footer-form {
-  margin-top: -25px;
-  padding-left: 33px;
+  margin-top: -55px;
+  padding-left: 23px;
   /* Formulario suscripcion pie de pagina */
   /* Formulario suscripcion pie de pagina */
   /* Formulario suscripcion pie de pagina */
@@ -669,6 +759,18 @@ body {
   margin-left: 10px;
 }
 
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+  .footer-form {
+    padding-top: 35px;
+  }
+  .footer-form__input {
+    width: 450px;
+  }
+  .footer-form__button {
+    width: 200px;
+    margin-top: 20px;
+  }
+}
 /*Botones portafolio*/
 .filter-list {
   display: flex;
@@ -699,6 +801,15 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+  .filter-list {
+    gap: 8px;
+    padding: 60px 126px 0px 126px;
+  }
+  .filter-list__button {
+    margin-bottom: 30px;
+  }
+}
 /*Portafolio imagenes */
 .main-portafolio-images {
   padding: 0px 86px 30px 86px;
@@ -715,6 +826,7 @@ body {
   gap: 30px;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   /*Imagenes portafolio li*/
   /*Portafolio imagnes sombra*/
   /*Portafolio titilo del proyecto */
@@ -744,6 +856,25 @@ body {
   padding-left: 8px;
 }
 
+@media only screen and (min-width: 767.98px) and (max-width: 1200.01px) {
+  .main-portafolio-images {
+    padding: 0px 15px 30px 15px;
+  }
+  .portafolio-images__list {
+    width: 354px;
+  }
+  .portafolio-images__list img {
+    width: 354px;
+  }
+  .main-portafolio-images3 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 767.98px) and (max-width: 1199.98px) {
+  .portafolio-images {
+    justify-content: flex-start;
+  }
+}
 /*Imagenes portafolio p */
 .portafolio-images__card {
   padding: 20px 0px;

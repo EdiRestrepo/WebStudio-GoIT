@@ -32,7 +32,12 @@
     @include subtitle();
   }
   
+  @media only screen and (min-width: 767.98px) and (max-width:1199.98px){
 
+    .what-we-do{
+      display: none;
+    }
+  }
   
   
   

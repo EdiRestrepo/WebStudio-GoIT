@@ -36,4 +36,25 @@
     height: auto;
   }
   
+  @media only screen and (min-width: 767.98px) and (max-width:1199.98px){
+
+    .advantages-list{
+      flex-wrap: wrap;
+      padding: 60px 10px 0px 10px;
+      gap: 30px;
+      margin-bottom: 60px;
+    }
+
+     .advantages__list{
+    width: 354px;
+  }
+
+  .advantages-list__img{
+    width: 354px;
+  }
+
+  .advantanges__description{
+    padding-top: 10px;
+  }
+  }
   

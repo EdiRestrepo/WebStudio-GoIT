@@ -5,8 +5,14 @@
 .footer {
     background: $background-black-2;
     width: 100%;
-    padding: 60px 115px;
+    padding: 60px 160px;
     line-height: 1.71;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 45px;
+    gap: 70px;
      
     /*Footer webstudio*/
   &__webstudio {
@@ -20,8 +26,8 @@
 }
   
   .footer-address {
-    width: 230px;
-    padding-top: 9px;
+    width: 241px;
+    padding-top: 18px;
 
     &__item{
         @include textFooter();
@@ -43,10 +49,8 @@
   
 
   /*Footer webstudio*/
-  .footer__address {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
+  .footer__address li{
+    padding-bottom: 8px;
   }
   
   /*Footer webstudio*/
@@ -54,9 +58,12 @@
     color: $primary-white-color;
     font-family: "Roboto";
     font-style: normal;
-    margin-top: -25px;
     font-size: 14px;
     letter-spacing: 0.03em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -65px;
 
       /*Footer webstudio*/
   &__list {
@@ -67,7 +74,6 @@
   /*Footer social media*/
   &__item{
     @include display2();
-    margin-top: 16px;
     width: 45px;
     height: 45px;
     border-radius: 25px;
@@ -88,3 +94,10 @@
   
 }
   
+@media only screen and (min-width: 767.98px) and (max-width:1199.98px){
+
+  .footer{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
