@@ -42,6 +42,16 @@
       }
   }
   
+  /* Rehacer la ruta hacia la imagen 2x
+    si la densidad de la pantalla es al menos 2 */
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.main-cover-page{
+  background-image: url('./images-css/imagenfondo@2x.jpg');
+}
+}
+
   @media only screen and (min-width: 767.98px) and (max-width:1199.98px){
 
       .main-cover-page{
