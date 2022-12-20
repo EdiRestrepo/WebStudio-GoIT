@@ -73,3 +73,33 @@
     }
   }
   
+    @media only screen and (min-width: 767.98px) and (max-width:1199.98px){
+
+   
+      .backdrop__modal{
+        width: 450px;
+        height: 609px;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+      }
+  
+      .backdrop__button{
+        right: -200px;
+      }
+  }
+
+  @media only screen and (min-width: 479.98px) and (max-width:767.97px){
+
+    .backdrop__modal{
+      width: 450px;
+      height: 609px;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -60%);
+    }
+
+    .backdrop__button{
+      right: -200px;
+    }
+  }

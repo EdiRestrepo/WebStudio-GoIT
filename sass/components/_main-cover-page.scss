@@ -44,10 +44,10 @@
   
   @media only screen and (min-width: 767.98px) and (max-width:1199.98px){
 
-    .main-cover-page{
-      height: 400px;
-      background-size: 100% 400px;
-    }
+      .main-cover-page{
+        height: 400px;
+        background-size: 100% 400px;
+      }
 
     .main-cover-page__title{
       font-size: 26px;
@@ -61,6 +61,26 @@
       margin-top: 40px;
     }
 
+  }
+
+  @media only screen and (min-width: 479.98px) and (max-width:767.97px){
+
+    .main-cover-page{
+      height: 320px;
+      background-size: 100% 320px;
+    }
+
+    .main-cover-page__title{
+      font-size: 26px;
+      line-height: 1.61;
+      padding: 90px 60px 0px 60px;
+    }
+
+    .main-cover-page__button{
+      width: 220px;
+      height: 50px;
+      margin-top: 30px;
+    }
   }
 
   

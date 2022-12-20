@@ -57,4 +57,36 @@
     padding-top: 10px;
   }
   }
+
+  @media only screen and (min-width: 479.98px) and (max-width:767.97px){
+
+    .advantages-list{
+      flex-wrap: wrap;
+      padding: 60px 15px 0px 15px;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+     .advantages__list{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .advantages-list__img{
+    width: 450px;
+    height: 226px;
+  }
+
+  .advantanges__title{
+    width: 450px;
+    text-align: center;
+  }
+
+  .advantanges__description{
+    width: 450px;
+    padding-top: 10px;
+  }
+
+  }
   

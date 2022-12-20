@@ -81,4 +81,21 @@
 }
   
 
-  
+@media only screen and (min-width: 479.98px) and (max-width:767.97px){
+
+  .footer-form{
+    padding-top: 60px;
+  }
+
+  .footer-form__input{
+    width: 450px;
+    margin-left: -16px;
+  }
+
+  .footer-form__button{
+    width: 200px;
+    margin-top:  20px;
+    margin-left: 0px;
+  }
+
+}

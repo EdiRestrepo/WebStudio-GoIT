@@ -55,3 +55,24 @@
       height: 92px;
     }
     }
+
+
+    @media only screen and (min-width: 479.98px) and (max-width:767.97px){
+
+  
+      .customers__title{
+        padding-top: 60px;
+        padding-bottom: 30px;
+      }
+  
+      .customers__list {
+        flex-wrap: wrap;
+        padding-bottom: 60px;
+      }
+  
+      .customers__item  {
+        width: 210px;
+        height: 92px;
+      }
+  
+    }
