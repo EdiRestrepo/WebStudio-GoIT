@@ -7,7 +7,7 @@
 ---
 
 ### **Enlace a la página en vivo:**
-[homework-7.com](https://edirestrepo.github.io/goit-markup-hw-07/ "homework-7")
+[WebStudio.com](https://edirestrepo.github.io/goit-markup-hw-07/](https://edirestrepo.github.io/WebStudio-GoIT/ "homework-7")
 
 👌💻
 
